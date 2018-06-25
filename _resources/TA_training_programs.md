@@ -6,7 +6,7 @@ desc: "Links to TA training programs at other schools"
 Some of these links come from a [paper by Francisco Estrada and Anya Taflovich](https://doi.org/10.1145/3059009.3059023)
 
 * [Support for Graduate Students at the University of Waterloo](https://uwaterloo.ca/centre-for-teaching-excellence/support-graduate-students)
-* [TA Professional Development program at University of California Irvine](http://cei.uci.edu/programs/tapdp)
+* [TA Professional Development program at University of California Irvine](http://dtei.uci.edu/ta-professional-development-program/)
 * [TA Training program at Kent University](https://www.kent.edu/graduatestudies/teaching-assistant-training-program)
 * [TA Training program at University of British Columbia](http://ctlt.ubc.ca/programs/all-our-programs/ta-training-program)
 * [TA Training program at University of Southern California](http://cet.usc.edu/resources/ta resources/ta training)
