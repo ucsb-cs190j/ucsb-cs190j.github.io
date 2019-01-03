@@ -1,3 +1,9 @@
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
+
 title: "UCSB CS190J"
 course: "CS190J"
 github_url: https://github.com/ucsb-cs190j/ucsb-cs190j.github.io
@@ -34,9 +40,9 @@ defaults:
       path: ""
       type: topics
     values:
-      layout: topic
+      layout: default
   - scope:
       path: ""
       type: resources
     values:
-      layout: topic
+      layout: default

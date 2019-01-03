@@ -1,17 +1,14 @@
 #!/usr/bin/env bash
 
-
-if [[ -s "$HOME/.rvm/scripts/rvm" ]] ; then
-  source "$HOME/.rvm/scripts/rvm"
-elif [[ -s "/usr/local/rvm/scripts/rvm" ]] ; then
-  source "/usr/local/rvm/scripts/rvm"
-else
-  printf "ERROR: An RVM installation was not found.\n"
-fi
-
 echo "Installing software needed to run Jekyll locally... "
-rvm install ruby-2.4.2
-rvm use 2.4.2
-gem install bundler
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+rvm install ruby-2.5.1
+rvm use 2.5.1
+gem install bundler 
+gem install pkg-config
+gem install nokogiri
+# bundle config build.nokogiri --use-system-libraries
 bundle install --path vendor/bundle
 echo "Done."
